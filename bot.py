@@ -49,3 +49,4 @@ def respond():
            bot.sendMessage(chat_id=chat_id, text="There was a problem in the name you used, please enter different name", reply_to_message_id=msg_id)
 
    return 'ok'
+respond()
